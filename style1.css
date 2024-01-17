@@ -1,0 +1,161 @@
+
+.para
+{
+	font-family: Public Sans Web,sans-serif;
+	color: white;
+	background-color: #0b3d91;
+	text-align: center;
+	font-size: 1.2rem;
+	margin: 0;
+	padding:1rem;
+	
+}
+
+.background
+{
+	     background-image: -webkit-linear-gradient();
+}
+
+
+.image-container
+{
+	position: relative;
+	color: white;
+	margin: 0;
+}
+
+.planets-container
+{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	/*max-width: 100%;*/
+}
+
+.text1
+{
+	position: absolute;
+	top: 0%;
+  left: 1%;
+  font-size: 4rem;
+ 
+}
+
+.text2
+{
+	position: absolute;
+	top: 50%;
+	left: 1%;
+	font-size: 1.5rem;
+}
+.text3
+{
+	position: absolute;
+	top: 65%;
+	left: 1%;
+	font-size: 1.5rem;
+}
+.text4
+{
+	position: absolute;
+	top: 71%;
+	font-family:DM mono;
+	font-size: 2.5rem;
+	color: #ADD8E6;
+}
+.text5
+{
+	position: absolute;
+	top: 72%;
+	font-size: 1.5rem;
+	
+}
+
+.overview
+{
+	padding-left:3rem; 
+	padding-right:3rem; 
+	margin-top:0;
+	font-size:2rem; 
+	text-align:center;
+}
+
+.overview-text
+{
+	font-size:1.3rem;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.heading-for-column1
+{
+	font-family:arial, sans serif; 
+	font-size: 30px;
+	font-weight: 300;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.images
+{
+	width: 300px;
+	max-width: 100%;
+}
+
+.column1
+{
+	column-count: 4;
+	column-fill: auto;
+	break-after:always;
+	padding-bottom: 5px;
+}
+
+.column1-text
+{
+	font-size: 1.5rem;
+}
+
+.widget-container
+{
+	font-size: 17px;
+	color: black;
+	background-color: #ecf1f7;
+	column-fill: auto;
+	white-space: pre-wrap;
+	padding-left: 7rem;
+	padding-right: 7rem;
+
+}
+
+.widget-column
+{
+	column-count: 4;
+	column-gap: 50px;
+}
+
+.widget-column-text1
+{
+	font-family:comic sans, sans serif;
+	font-size: 1.7rem;	
+}
+
+.widget-column-text2
+{
+	font-family: "Lato", sans-serif;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.break-to-next-column
+{
+  break-before: column; /* Forces a column break before the element */
+  /*break-after: column;  /* Forces a column break after the element */
+}
+
+.page-end-InfoBackground
+{
+	background-color:#0b3d91;
+	color: white;
+	text-align: center;
+	white-space: pre-wrap;
+	padding-bottom: 1.5rem;
+}
